@@ -1,8 +1,6 @@
 # Mythic Notifications
 A simple notification system inspired by NoPixel's
 
-![Image of Notification](https://i.imgur.com/shT1XWc.png)
-
 ## Use
 To display a notification simply make a call like below (Client-Side) :
 
@@ -45,6 +43,3 @@ exports['mythic_notify']:DoHudText('inform', 'Hype! Custom Styling!', { ['backgr
 ```LUA
 TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'inform', text = 'Hype! Custom Styling!', style = { ['background-color'] = '#ffffff', ['color'] = '#000000' } })
 ```
-
-##### Result:
-![Custom Styling](https://i.imgur.com/FClWCqm.png)
